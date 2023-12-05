@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+nav img.rd_bus_logo{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 5rem;
+    height: 3rem;
+    cursor:Pointer;
+}
+.left{
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li img{
+    width: 2.3rem;
+    height: 1.55rem;
+    display: block;
+    margin-left: 30px; 
+
+
+}
+
+ul li{
+    list-style: none;
+    color: black;
+    margin-left: 20px;
+
+}
+li{
+    /* background-color: */
+    padding: 20px 10px;
+    border-radius:10px;
+}
+ul li:hover{
+ background-color:  rgb(239, 238, 238);
+}
+.font-style{
+    font-weight: 500;
+    /* margin-left:20px ; */
+    font-size: 14PX;
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right:18px ;
+    gap: 1rem;
+}
+.hero{ 
+    background-image: url("HeroImage.png");
+    background-repeat: no-repeat;
+    background-color: #295CB7;
+/* background-position: center; */
+    width: 100%;
+    height:600px;
+    
+}
+
+
+h1{
+    /* margin-top:80px; */
+    text-align: center;
+    padding: 20px 0 0 0;
+    color: #fff;
+} 
+.search-bar{
+    background-color: antiquewhite;
+    width: 999px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-left: 240px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    color: gray;
+    /* display: block; */
+    margin-right: 10px;
+}
+.from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 0.5px solid rgba(240, 239, 240, 0.990); */
+    height: 100%;
+    margin-left: 20px;
+    font-weight: 500;
+}
+/* p{
+    margin-right: 180px;
+} */
+.to{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.5px solid #DEDEDE;
+    border-left: 0.5px solid #DEDEDE;
+    padding: 0 120px;
+    font-weight: 500;
+    font-size: 17px;
+    
+    
+}
+.calender{
+    font-weight: 500;
+    font-size: 17px;
+
+
+}
+.search{
+    width: 210px;
+    height: 100%;
+    background-color:rgba(233, 54, 54, 0.891);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+}
+.trending-section{
+    width: 90%;
+    height: 300px;
+    /* border: 1px soild black; */
+    background-color: #fff;
+    margin-top: 150px;
+    margin-left: 58px;
+    border-radius: 39px;
+    box-shadow: 4px 3px 50px black;
+}
+
+
+
+
+
+/* img{
+    margin-left: 15rem;
+    width: 60%; */
+/* } */
+ .main-text{
+    
+    margin: 25px;
+    padding-top: 24px;
+    display: flex;
+ justify-content: space-between;
+ /* border:2px solid black; */
+
+}
+span{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.btn1{
+    padding: 10px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4rem;
+} 
+.cards{
+    display: flex;
+    
+    
+}
+h3{
+    margin:10px 0;
+}
+p{
+    margin-bottom: 5px;
+}
+.card{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 25px;
+    width: 300px;
+    height: 170px;
+    background-color: #295CB7;
+    /* border:2px solid black; */
+    border-radius: 15px;
+    padding: 15px;
+}
+.btn2{
+    width: 45px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+}
+.btn3{
+    border: 0.5px dashed black;
+    padding: 2px 10px;
+    font-weight:800 ;
+    color: #fff;
+    background-color: hsla(0, 0%, 100%, 0.4) ;
+    margin-right: 12px;
+    
+}
+i{
+    font-size: 20px;
+}
