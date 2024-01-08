@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Annesh</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- ///////// hamburger Manu///////////////// -->
+      <nav id="hamburger-nav">
+        <div class="logo">Annesh</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+  
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+  
+  <!-- //////////////PROFILE SECTION/////////////////// -->
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="view-3d-man-holding-laptop.png" alt="Annesh profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="profile-title">Annesh Nayak</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('AnneshKumarNayakresume.pdf')"
+        >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      
+    </div>
+  </section>
+<!-- /////////////////ABOUT SECTION////////////////////////// -->
+
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="K4C.png"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="experience_2303915.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Experience</h3>
+            <p>0+ years <br />Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img
+              src="studying_1903172.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Sc. Bachelors Degree<br />Mca. Masters Degree</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Armed with HTML, CSS, and JavaScript proficiency complemented by Bootstrap,
+             Tailwind, and C/C++ expertise, I excel in contributing to dynamic projects, 
+             surpassing expectations. I don't just code; I transform ideas into digital reality. 
+             Eager for opportunities, I'm poised to bring my skills to an innovative and creative team.
+              Let's connect to explore how we can achieve greatness together in the exciting realm where code meets creativity. 
+            Open to discussions that lead to impactful collaborations.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+<!-- ////////////////////////// EXPERIENCE/////////////////////////////////////// -->
+
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Bootstrap</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Tailwind</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>SASS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Node JS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Express JS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="right-arrow_3918452.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+
+          <div class="article-container">
+            <img
+              src="7718868.jpg"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Quiz App</h2>
+        
+        </div>
+<!-- /////////////////////////////////////// -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="5206.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Sneak Game</h2>
+          
+        </div>
+        <!-- ////////////////////////////////////////////////// -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="3918929.jpg"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Website clone</h2>
+        </div>
+        <!-- //////////////////// -->
+      </div>
+    </div>
+    <!-- //////////////////////////// -->
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="gmail_732200.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="Anneshkumar999@gmail.com">Anneshkumar999@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="linkedin_174857.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="c:\Users\91907\Desktop\AnneshKumarNayakresume.pdf">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+    
+      
+
+
+<script>
+    function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
+</script>
+</body>
+</html>
